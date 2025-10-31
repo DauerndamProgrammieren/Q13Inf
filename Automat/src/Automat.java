@@ -14,7 +14,7 @@ public class Automat {
         for (int i = 0; i < this.toCheck.length(); i++) {
             this.zeichenVerarbeiten(this.chCheck[i]);
         }
-        return true;
+        return aktuellerZustand==2;
     }
 
     private void zeichenVerarbeiten(char z){
